@@ -1,13 +1,15 @@
-# Define the two numbers
+#!/usr/bin/python3
+# This script performs basic arithmetic operations
+
 number1 = 10
 number2 = 5
 
-# Perform arithmetic operations
-addition = number1 + number2
-subtraction = number1 - number2
-multiplication = number1 * number2
+# Perform operations
+sum_result = number1 + number2
+difference_result = number1 - number2
+product_result = number1 * number2
 
-# Print the results
-print(f"Addition of {number1} and {number2} is {addition}")
-print(f"Subtraction of {number1} and {number2} is {subtraction}")
-print(f"Multiplication of {number1} and {number2} is {multiplication}")
+# Print results
+print(f"Addition of {number1} and {number2} is {sum_result}")
+print(f"Subtraction of {number1} and {number2} is {difference_result}")
+print(f"Multiplication of {number1} and {number2} is {product_result}")
